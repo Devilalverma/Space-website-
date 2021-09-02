@@ -1,0 +1,395 @@
+<html>
+<head>
+    <title>Space website</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <h1>
+        Space website
+        </h1>
+    <img src="data:image/jpeg;base64,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">
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#avengers_endgame">
+            <span class="glyphicon glyphicon-space"></span>Can a star turn into a planet?<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="avengers_endgame" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://wtamu.edu/~cbaird/sq/images/browndwarf.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs 12 movie_text">
+                <h5 class="text-success text-left text-capitalize">
+Can a star turn into a planet?
+                </h5>
+                <p>
+Yes, a star can turn into a planet, but this transformation only happens for a very particular type of star known as a brown dwarf. Some scientists do not consider brown dwarfs to be true stars because they do not have enough mass to ignite the nuclear fusion of ordinary hydrogen. At the same time, some scientists do not consider brown dwarfs to be true planets either because they typically sit at the center of a solar system, just like a star. A brown dwarf is a strange object with a mass that is greater than the biggest regular planets (i.e. above 13 times the mass of Jupiter) and less than the smallest regular stars (i.e. below 80 times the mass of Jupiter). Although a brown dwarf does not have enough inward gravitational pressure to ignite the nuclear fusion of regular hydrogen, it does have enough to ignite the nuclear fusion of heavy hydrogen (deuterium). Early in the life of a brown dwarf, the nuclear fusion of its heavy hydrogen releases large amounts of light and heat. As a result, a young brown dwarf glows like a regular star. Despite its name, a brown dwarf that is still glowing does not appear brown. Rather, it appears magenta or reddish orange. Despite beginning life as a star, a brown dwarf quickly uses up its heavy hydrogen, goes dark, cools, and spends the rest of its life as a planet.
+<br><br>
+An atom of heavy hydrogen is just like an atom of regular hydrogen except that it has a neutron in its nucleus in addition to its proton. This extra particle in the nucleus makes it heavier. This neutron also acts like additional nuclear glue, making it easier to fuse together two atoms of heavy hydrogen. Additionally, heavy hydrogen is much rarer in the universe and in stars than regular hydrogen. Therefore, a brown dwarf cannot burn its regular hydrogen and quickly burns up its heavy hydrogen (because there is so little of it). As a result, a brown dwarf stops emitting light and heat early in its life. It then steadily cools and dims until it behaves more like a planet such as Jupiter. Despite the fact that a typical brown dwarf remains positioned at the center of a solar system like a regular star - it spends the rest of its life looking and acting like a planet. In such a solar system, the end result is a collection of planets orbiting a large central planet with no star to be found anywhere. Such a solar system ends up very cold and dark. (Note that some brown dwarfs orbit regular stars.)
+<br><br>
+As of 2018, over 3000 different brown dwarfs have been identified by telescopes. This does not mean that brown dwarfs are rare. It just means that brown dwarfs are hard to detect. This makes sense when you remember that through most of its life, a brown dwarf is dark like a planet. A recent statistical analysis estimates that there are about as many brown dwarfs in our galaxy as there are regular stars.
+                </p>
+            </div>
+        </div>
+                <div class="bg-primary movie_head" data-toggle="collapse" data-target="#j2">
+            <span class="glyphicon glyphicon-space"></span>Can gravity form waves?<i class="fa fa-sort-desc"></i>
+        </div>
+                <div id="j2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://wtamu.edu/~cbaird/sq/images/gwaves.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs 12 movie_text">
+                <h5 class="text-success text-left text-capitalize">
+Can gravity form waves?
+                </h5>
+                <p>
+Yes, gravity can forms waves. Gravitational waves are ripples in spacetime that travel through the universe. If you think of gravity as a force acting at a distance, it is difficult to visualize how gravitational waves could form. However, if you use the more accurate description of gravity that was developed by Einstein in his general theory of relativity, these concepts become more logical.
+<br><br>
+General relativity describes gravity as a warping or curvature of space and time. All objects warp spacetime. When other objects travel through this warped spacetime, they end up traveling along curved paths. These curved paths look like they result from a force being exerted on the objects, when in reality they result from spacetime itself being warped. For instance, when you throw a baseball to your friend, it follows a smooth parabolic trajectory under the influence of gravity. Isaac Newton's laws would say that earth's mass is creating a gravitational force which acts on the baseball, gradually pulling the baseball down from straight-line motion. However, the more accurate description goes like this: The earth warps space and time. The baseball is actually traveling in a straight line relative to spacetime, but since spacetime itself is curved, this straight line becomes a curve when viewed by an external observer. In this way, there is not really any direct force acting on the baseball. It just looks that way because of the spacetime warpage. If all of this sounds too strange to be believed, you should know that Einstein's general relativity has been mainstream science for over a hundred years and has been verified by countless experiments.
+<br><br>
+In principle, all objects warp spacetime. However, low-mass objects such as houses and trees warp spacetime to such a small extent that it's hard to notice their effects. It takes high-mass objects such as planets, moons, or stars in order for the gravitational effects to be noticeable. The more mass an object has, the more it warps spacetime, and the stronger its gravitational effect on other objects. For instance, a black hole has such a high amount of mass in such a small volume that even light cannot escape. Inside the event horizon of a black hole, spacetime is so strongly warped that all possible paths that light can take eventually lead deeper into the black hole.
+                    <br><br>
+                    Since spacetime warpage is caused by mass, the warpage travels along with the mass. For instance, earth warps the surrounding spacetime into an inward-pinched shape (roughly speaking). As the earth travels around the sun in its year-long orbit, this pattern of spacetime curvature travels along with the earth. An observer that is stationary relative to the sun and is at a point close to earth's path would see the earth get closer and then farther away, closer and then farther away, in one-year cycles. Therefore, this observer would see earth's pinched spacetime pattern come closer and then farther away, closer and then farther away, in one-year cycles. Because the observer himself sits in spacetime and experiences it, the observer therefore sees his own local spacetime as being pinched, and then not pinched, pinched and then not pinched, in one-year cycles. The observer is therefore experiencing an oscillation of spacetime curvature that is traveling outward from the earth, i.e. a gravitational wave. This actually happens in the real world. However, in practice, gravitational waves are so incredibly weak that they have no significant effect on daily life. The oscillating spacetime warpage of a passing gravitational wave is far too weak for humans to notice or feel. Only very sensitive, expensive, modern equipment is able to detect gravitational waves. In fact, it took a hundred years after Einstein predicted the existence of gravitational waves for technology to improve enough to be able to detect them.
+                    <br><br>
+                    This idea of periodically-pinched spacetime is over-simplified. If you apply the full mathematics of general relativity, you find that an observer experiencing a passing gravitational wave does not experience a cycling pattern of spacetime pinching and no pinching. Rather, the observer experiences a cycling pattern of stretching in the sideways directions with pinching in the other sideways directions, and then pinching in the first sideways directions with stretching in the other sideways directions. For instance, suppose a gravitational wave from a distant star traveled straight down toward earth's surface right where you sit. If the gravitational wave were a thousand trillion times stronger than it can actually get in the real world, then you would see a ruler that is aligned with the east-west directions momentarily become shorter while a ruler that is aligned with the north-south directions momentarily become longer. And then a moment later, the east-west ruler would become longer while the north-south ruler would be shorter. Each ruler would continue to get periodically longer and shorter until the gravitational wave has passed. There is nothing wrong with the rulers. Spacetime itself is warping and everything in spacetime experiences the warping.
+                    <br><br>
+                    
+                    Although this effect is very weak, it actually happens. A gravitational wave detector is effectively just a very long ruler with the ability to measure the length of the ruler very accurately. For instance, each arm of a LIGO detector is 2.5 miles long and uses lasers to accurately measure lengths. Even with large, modern, expensive detectors, gravitational waves are so weak that only the largest waves can currently be detected. The current detectors cannot pick up the gravitational waves generated by planets orbiting stars or moons orbiting planets. The largest gravitational waves are generated when two black holes orbit each other rapidly immediately before falling together and merging. Large waves are also generated when two neutron stars orbit each other, or when a black hole and a neutron star orbit each other, immediately before merging. These are the only types of gravitational waves that have been detected so far.
+                    <br><br>
+                    
+                    In general, a gravitational wave is created any time a mass accelerates. Traveling along a circular path is only one type of acceleration. If an object with mass speeds up along a straight path, this is also a type of acceleration, and therefore it should create gravitational waves. Similarly, an object with mass slowing down along a straight path should also create gravitational waves. However, on the astronomical scale, an object traveling steadily along a circular orbit is far more common than an object violently slowing down or speeding up.
+
+<br><br>
+                    
+                    Another point to keep in mind is that the gravitational waves created by the earth in its yearly orbit are not only extremely weak, they also have a period of one year. This means that a gravitational wave detector on another planet would have to watch for several years in order to pick up the oscillatory shape of the gravitational waves generated by earth's orbital motion. In contrast, immediately before two black holes merge, they orbit each other so rapidly that it only takes a fraction of a second for each to complete an orbit. This is another factor that makes these types of gravitational waves easier to detect.
+                </p>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                      <div class="bg-primary movie_head" data-toggle="collapse" data-target="#j3">
+            <span class="glyphicon glyphicon-space"></span>Does every black hole contain a singularity?<i class="fa fa-sort-desc"></i>
+        </div>
+                <div id="j3" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://wtamu.edu/~cbaird/sq/images/black_hole_baird.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs 12 movie_text">
+                <h5 class="text-success text-left text-capitalize">
+Does every black hole contain a singularity?
+                </h5>
+                <p>
+In the real universe, no black holes contain singularities. In general, singularities are the non-physical mathematical result of a flawed physical theory. When scientists talk about black hole singularities, they are talking about the errors that appear in our current theories and not about objects that actually exist. When scientists and non-scientists talk about singularities as if they really exist, they are simply displaying their ignorance.
+<br><br>
+A singularity is a point in space where there is a mass with infinite density. This would lead to a spacetime with an infinite curvature. Singularities are predicted to exist in black holes by Einstein's theory of general relativity, which is a theory that has done remarkably well at matching experimental results. The problem is that infinities never exist in the real world. Whenever an infinity pops out of a theory, it is simply a sign that your theory is too simple to handle extreme cases.
+<br><br>
+For example, consider the simplest physical model that accurately describes how waves travel on a guitar string. If you drive such a string at its resonant frequency, the simplest model predicts that the vibration of the string will increase exponentially with time, even if you are driving it gently. The string actually does this... up to a point. The problem is that the exponential function quickly approaches infinity. The model therefore predicts that a guitar string driven at its resonant frequency will, in time, vibrate passed the moon, passed the stars, out to infinity, and then back. Does the string actually vibrate infinitely just because the model says so? Of course not. The string snaps long before vibrating out to the moon. The appearance of the infinity in the model therefore indicates that the model has reached its limitations. The simple model of waves on a string is correct as long as the vibrations are small. To avoid the infinity in the equations, you need to build a better theory. For vibrating guitar strings, all you have to do is add to the model a description of when guitar strings snap.
+                    <br><br>
+As another example, consider a thin glass drinking goblet. If a singer sings a note at the right pitch, the goblet begins to shake more and more. The simplest model would predict that, in time, the goblet will be shaking infinitely. In real life, this does not happen. Instead, the singing causes the goblet to shatter to pieces when the shaking becomes too violent.
+                    <br><br>
+                    Every scientific theory has its limitations. Within its realm of validity, a good theory matches experimental results very well. But go beyond the limitations of a theory, and it starts giving predictions that are inaccurate or even just nonsense. Physicists hope to one day develop a theory of everything that has no limitations and is accurate in all situations. But we do not have that yet. Currently, the best physics theories are quantum field theory and Einstein's general relativity. Quantum field theory very accurately describes the physics from the size of humans down to the smallest particle. At the same time, quantum field theory fails on the planetary and astronomical scales, and, in fact, says nothing at all about gravity. In contrast, general relativity accurately predicts gravitational effects and other effects on the astronomical scale, but says nothing about atoms, electromagnetism, or anything on the small scale. Using general relativity to predict an electron's orbit around an atomic nucleus will give you embarrassingly bad results, and using quantum field theory to predict earth's orbit around the sun will likewise give you bad results. But as long as scientists and engineers use the right theory in the right setting, they mostly get the right answers in their research, calculations, and predictions.
+                    <br><br>
+                    
+The good thing is that general relativity does not overlap much with quantum field theory. For most astronomical-scale and gravitational calculations, you can get away with using just general relativity and ignoring quantum field theory. Similarly, for small-scale and electromagnetic calculations you can get away with using quantum field theory and ignoring general relativity. For example, you use just quantum field theory to describe what the atoms in the sun are doing, but use just general relativity to describe what the sun is doing as a whole. Many efforts are underway to consistently unite quantum field theory and general relativity into one complete theory, but none of these efforts have been fully solidified or confirmed by experiments. Until a successful theory of everything comes along, physicists can mostly get by with using both general relativity and relativistic quantum theory in a patchwork manner. This approach mostly works because the realms of validity of both theories do not overlap much. But this approach breaks down when you have an astronomical object collapsed down to quantum sizes, which is exactly what a black hole is.
+                    <br><br>
+                    
+                   A black hole forms when a massive star runs out of the fuel needed to balance out gravity, and collapses under its own gravity to a very small size. General relativity predicts that the star collapses to an infinitely small point with infinite density. But, as should now be clear, such a beast does not really exist in the real world. The appearance of a black hole singularity in general relativity simply indicates that general relativity is inaccurate at very small sizes, which we already knew. You need quantum field theory to describe objects of small sizes. But, quantum field theory does not include gravitational effects, which is the main feature of a black hole. This fact means that we will not known exactly what is going on in a black hole until scientists can successfully create a new theory that accurately describes small sizes and strong gravitational effects at the same time. Whatever the new theory ends up telling us, it will most certainly not say that there are singularities in black holes. If it did, that outcome would simply indicate that the new theory is just as bad as the old theory. In fact, one of the requirements for the future theory of everything is that it not predict singularities in black holes. In this sense, the interiors of black holes are the final frontier for theoretical physics. Just about everything else in the universe can be accurately described (at least in principle) using our current theories.
+
+                </p>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#j4">
+            <span class="glyphicon glyphicon-space"></span>Does sound travel faster in space?<i class="fa fa-sort-desc"></i>
+        </div>
+                <div id="j4" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://wtamu.edu/~cbaird/sq/images/gpn-2000-000940.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs 12 movie_text">
+                <h5 class="text-success text-left text-capitalize">
+Does sound travel faster in space?
+                </h5>
+                <p>
+Sound does not travel at all in space. The vacuum of outer space has essentially zero air. Because sound is just vibrating air, space has no air to vibrate and therefore no sound. If you are sitting in a space ship and another space ship explodes, you would hear nothing. Exploding bombs, crashing asteroids, supernovas, and burning planets would similarly be silent in space. In a space ship, you could of course hear the other passengers because your ship is filled with air. Additionally, a living human will always be able to hear himself talk, breath, and circulate blood, because the air in his space suit which sustains his life also transmits sound. But two astronauts in space suits floating around in space will not be able to talk to each other directly no matter how hard they yell, even if they are only inches away. Their inability to talk directly is not caused by their helmets getting in the way, but is rather caused by the vacuum of space not carrying sound at all. That is why space suits are equipped with two-way radio communicators. Radio is a form of electromagnetic radiation just like light and can therefore travel through the vacuum of space just fine. The astronaut's transmitter converts the sound waveform to a radio waveform and sends the radio waves through space to the other astronaut, where is it converted back to sound for the other human to hear. I suspect the entertainment industry portrays this principle incorrectly on purpose for dramatic effect. A silent exploding space ship is not as dramatic as a booming one.
+
+
+                </p>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                <div class="bg-primary movie_head" data-toggle="collapse" data-target="#j5">
+            <span class="glyphicon glyphicon-space"></span>Does the influence of gravity extend out forever?
+<i class="fa fa-sort-desc"></i>
+        </div>
+                <div id="j5" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://wtamu.edu/~cbaird/sq/images/spacetime_curvature.png" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs 12 movie_text">
+                <h5 class="text-success text-left text-cpitalize">
+Does the influence of gravity extend out forever?
+
+                </h5>
+                <p>
+No. The attractive force called gravity does not extend beyond galaxy groups. If you look at Newton's Law of Universal Gravitation, you see that the force of gravity on one mass due to another mass depends on their separation r according to the dependence 1/r2. As you get farther away from a gravitational body such as the sun or the earth (i.e. as your distance r increases), its gravitational effect on you weakens but never goes completely away; at least according to Newton's law of gravity. However, Newton's law of gravity is wrong.
+<br><br>
+The most correct theory of gravity is currently not Newton's law, but is Einstein's General Theory of Relativity with the cosmological constant included. General Relativity describes how gravity is not really a direct, classical force. Rather, the effect we call gravity is simply how objects move in a spacetime that is itself curved. A mass such as the sun does not shoot out gravitational force field lines. Rather, mass warps space and time, and when an object travels in a straight line through a warped spacetime, the object seems to be acted on by a force. General Relativity does more than explain traditional gravitational attraction. It also explains other ways in which spacetime behaves. The behavior of spacetime depends on how much mass and energy is present, how it is distributed, and how it is moving.
+<br><br>
+On the scale of groups of galaxies and smaller, there is enough localized mass present to make spacetime act like traditional gravity. In other words, on the scales of ants, waterfalls, humans, planets, solar systems, galaxies, and galaxy groups, spacetime behaves in such a way that one mass seems to gravitationally attract another mass. On these scales, General Relativity almost exactly reproduces the older and less accurate Newtonian law of gravity. (Even on these scales, there are measurable differences between the incorrect predictions of Newton's law and the correct predictions of General Relativity, but the differences are usually so small that you need sensitive equipment to detect them.) Put in rough terms, on all of the scales that we care about in everyday life, spacetime acts mostly like good old-fashioned gravity.
+<br><br>
+On scales larger than galaxy groups, the mass of stars, planets, moons, and space dust gets too sparse and too non-localized on average to make spacetime continue acting like traditional gravity. On these scales, spacetime looks mostly empty, mostly uniform, and mostly flat. According to General Relativity with the cosmological constant included, two distant galaxies in such a spacetime no longer move towards each other. They move away from each other. It's not that the two galaxies are actively repelling each other. Rather, the nature of spacetime is such that when it is mostly empty, uniform and flat, it expands. New space is continually created between distant galaxies, so that the distance between galaxies in different galaxy groups is continually growing. Furthermore, the nature of spacetime is such that, on large scales, this expansion is accelerating in time. Galaxies in different groups are not only moving farther apart, they are also moving farther apart at an increasing rate. Scientists call this behavior of spacetime on larges scale by the names "cosmic expansion" or "metric expansion". Cosmic expansion has been confirmed experimentally many times using many different approaches. The key concept for our discussion here is that the accelerating expansion of the universe is an innate property of spacetime itself on scales where spacetime no longer acts like traditional gravity.
+<br><br>
+In summary, the influence of gravity only extends to the edge of each gravity group. Beyond that, spacetime no longer behaves like gravity. It's not that the gravitational attraction of a star simply gets too weak to notice when you leave its galaxy group. Rather, the gravitational attraction goes completely away outside of the galaxy group. A hammer in the solar system that is let go at rest relative to the sun falls towards the sun. A hammer released at rest in a different galaxy but in the same galaxy group as our sun would also move towards the sun (in addition to moving towards the other, closer masses). In contrast, a hammer in a different galaxy group does not move towards our sun at all. It moves away from our sun, and it moves away at an accelerating rate. In fact, the hypothetical distant hammer moves away from our entire galaxy group at an increasing rate. Spacetime simply does not behave at all like attractive gravity on cosmic scales. For this reason, gravity fundamentally does not extend beyond gravitationally-bound groups of galaxies.
+
+
+                </p>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#j6">
+            <span class="glyphicon glyphicon-space"></span>Galaxies look stationary, so why do scientists say that they rotate?
+<i class="fa fa-sort-desc"></i>
+        </div>
+                <div id="j6" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://wtamu.edu/~cbaird/sq/images/gpn-2000-000940.jpg
+" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs 12 movie_text">
+                <h5 class="text-success text-left text-capitalize">
+Galaxies look stationary, so why do scientists say that they rotate?
+
+                </h5>
+                <p>
+Galaxies do indeed rotate. This rotation is what gives typical galaxies a flattened round shape, a bit like how throwing and spinning pizza dough makes it round and flat. In terms of the tangential speed of its parts, galaxies rotate at an incredibly high speed. For instance, our entire solar system speeds along at about 500,000 miles per hour as it takes part in the galaxy's rotation. So why do galaxies look so frozen in place if their parts are moving so quickly? It's because galaxies are unimaginably huge. An object traveling at high speed across a very long distance appears to be moving slowly when viewed from far away. This is not a psychological effect. The object is actually traveling very slowly when its speed is expressed in terms of the percentage of the total distance it has to travel.
+<br><br>
+For example, pretend that you are in a sports car traveling at 200 miles per hour relative to the ground. This is a high speed compared to what humans usually experience. At this speed, you can get to the next city block in a few seconds. To an observer that is situated so as to be able to see your entire journey to the next city block, you are seen as traveling blazingly fast. However, now consider that you are traveling at 200 miles all the way across the United States from New York City to San Francisco. Even at this high speed, it would still take you 15 hours to complete this journey (assuming you don't get in an accident or get thrown in jail along the way). To an observer that is situated so as to be able to see your entire journey across the country (such as an astronaut on the International Space Station; pretending the car is visible from this distance), you are seen as traveling incredibly slow. In fact, the observer might even think you are not moving at all. This makes more sense if we express your speed not in miles per hour, but in percent of the overall trip per hour. For the trip across the country, you are traveling at about 7 percent of the journey per hour. In contrast, to drive to the next city block, you are traveling at about 500 percent of the journey per hour.
+<br><br>
+The same concept applies to the galaxy. The distance that our solar system has to travel in order to make one full trip around the galaxy is 9 × 1017 miles. Even though our solar system is speeding along at about 500,000 miles per hour as part of the galaxy's rotation, it will still take us about 200 million earth years to complete one trip around the galaxy's center. In terms of completing a single trip around the galaxy, our solar system is traveling at 0.0000000000005 percent of the journey per hour. To a distant alien astronomer in another galaxy who can see our entire galaxy, our galaxy is rotating so slowly that it looks like it is not rotating at all. The same things happens when we look at other galaxies.
+
+
+                </p>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                <div class="bg-primary movie_head" data-toggle="collapse" data-target="#j7">
+            <span class="glyphicon glyphicon-space"></span>Have aliens ever visited earth?
+<i class="fa fa-sort-desc"></i>
+        </div>
+                <div id="j7" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="Img1.jpg" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs 12 movie_text">
+                <h5 class="text-success text-left text-capitalize">
+Have aliens ever visited earth?
+
+                </h5>
+                <p>
+According to the findings of mainstream science, aliens have never visited the earth. Despite the whimsical fantasies of fictional works and the confusion of supposed eye-witnesses, there is no credible scientific evidence that aliens have ever visited the earth. Aliens did not visit the earth anciently and build the pyramids, nor do they sneak onto our planet in our day. Because of the unreliability of the human eyes and human brain, scientific data is established through (1) quantification, (2) use of accurate tools, and (3) repetition.
+<br><br>
+Quantification means that instead of a human giving a subjective account, the human – or better yet, a machine – measures a number to determine a property. For instance, "it feels hot outside" is a subjective statement of little scientific value. Is it hot enough to melt chocolate? Is it hot enough to melt steel? Does it just feel hot to the person making the statement because she just started menopause? We don't know from this statement. A quantified statement such as "it is 90 degrees Fahrenheit outside" is more reliable, and therefore scientific. Next, the use of accurate tools means that a proven measurement tool is used to make the measurement instead of the human's eyes. For instance, a builder who needs to measure a stud so he can cut the drywall to fit it does not just look at the stud and guess its length. He uses a tape measure to get an accurate value for the length. Lastly, repetition ensures that freak errors in measurement are identified and discarded. Builders know that they have to measure twice if they only want to cut once. Repetition also allows a value to be measured several times and averaged so as to minimize noise. Repetition means that one person takes the measurement several times, but it also means that other people make the measurement. Measurements repeated by different people minimize the error effects of a single faulty tool or confused human. If a builder uses a tape measure that has the numbers printed wrong, he may consistently get the same measurement, but it will still be wrong. Repetition by others will minimize such errors.
+<br><br>
+In every area of life, and not just in the lab, data is not reliable unless is has been quantified, measured by an accurate tool, and repeated. The alleged eye-witness accounts of UFO's and alien visitations fail to be reliable data on all accounts. When a man tells a newspaper that he saw a bright light over his farm that looked like it had an alien face inside, he has provided no quantified information, he has used no tools to make his measurement, and he is unable to repeat or have others repeat the measurement. Three strikes against him means that such accounts are completely unreliable. If an alleged UFO witness actually went up to his awe-inspiring blob of light and tried to measure its width, temperature, etc. he would quickly find that reflections from clouds were playing tricks on his eyes or that fireflies were migrating. According to current reliable data, aliens have never visited earth, contacted earth, or even given any hint of their existence. These facts do not automatically rule out the existence of life on other planets. They just indicate that their influence has not yet reached earth.
+<br><br>
+Most alien accounts involve seeing something strange in the sky or a strange creature on the earth. The following objects, events, and experiences could be easily misunderstood to be aliens by unreliable human eyes:
+<br><br>
+Natural Objects
+Fireflies: glowing beetles that can look like large objects when swarming
+Barn owls: owls that have alien-like faces
+Meteorites: falling space rocks that glow, burn, and explode
+<br><br>
+Electrical Disturbances
+Corona discharge: glowing clouds of sparks around charged objects
+Cloud to ground lightning: traditional lighting
+Cloud to cloud lightning: lightning that causes clouds to glow
+Elves, Sprites, & Blue Jets: exotic-looking forms of lightning
+Ionospheric air glow: steady glow high in the ionosphere
+<br><br>
+Atmospheric Optical Effects
+Aurorae: streaking glow caused by particles hitting the atmosphere
+Clouds: some clouds can have space-ship-like shapes and colors
+Mirages: the bending of light by air can make ships appear in the sky
+Rainbows: bow-like scattering of sunlight by raindrops
+Fogbows: bow-like scattering of sunlight by fog
+Sun dogs: bright spots due to scattering of sunlight by ice crystals
+Moon dogs: bright spots due to scattering of moonlight by ice crystals
+Light pillars: streaks of light due to scattering by ice crystals
+Circumhorizontal halos: arcs due to scattering of sunlight by ice crystals
+Searchlights: high-power man-made light beams scanning the sky
+Laser guides: laser beams used to calibrate astronomical telescopes
+Earthquake lights: flahses caused by earthquakes
+<br><br>
+Man-Made Craft
+Airplanes: advanced airplanes have unusual shapes
+Helicopters: advanced helicopters have unusual shapes
+Hot-air balloons: aircraft filled with buoyant hor air
+Weather balloons: silvery balloons carrying weather instruments
+Dirigibles: steerable balloons that come in a variety of shapes
+Kites: kites can come in just about any shape imaginable
+Flares: bright projectile that streaks across the sky
+Military drones: unmanned aircraft that can come in alien-like shapes
+Commerical drones: unmanned aircraft used for sensing and delivery
+RC airplanes: small unmanned hobby planes flown by radio control
+RC helicopters: small unmanned hobby helicopters flown by radio control
+Satellites: odd-shaped machines in orbit around the earth
+Rockets: fire-propelled object that comes in many sizes
+Man-made spacecraft: various manned and unmanned spaceships
+Frisbees: gliding toys thrown in the air
+<br><br>
+Psychological Effects
+Hallucinations caused by alcohol or drugs
+Hallucinations caused by various medical diseases
+Hallucinations caused by an abnormal fear response
+Hoaxes and pranks carried out by other humans
+
+                </p>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                                        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#j8">
+            <span class="glyphicon glyphicon-space"></span>Have astronomers ever observed a violet shift like they have blue shifts and red shifts?
+<i class="fa fa-sort-desc"></i>
+        </div>
+                <div id="j8" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://wtamu.edu/~cbaird/sq/images/redshift.png" class="img-responsive img-thumbnail">
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs 12 movie_text">
+                <h5 class="text-success text-left text-capitalize">
+Have astronomers ever observed a violet shift like they have blue shifts and red shifts?
+
+                </h5>
+                <p>
+                    
+Violet shifts happen all the time. We call them blue shifts. When a star emits light, the color of its light as observed on earth depends on its motion relative to earth. If a star is moving towards the earth, its light is shifted to higher frequencies on the color spectrum (towards the green/blue/violet/ultraviolet/x-ray/gamma-ray end of the spectrum). A higher frequency shift is called a "blue shift". The faster a star moves towards the earth, the more its light is shifted to higher frequencies. In contrast, if a star is moving away from the earth, its light is shifted to lower frequencies on the color spectrum (towards the orange/red/infrared/microwave/radio end of the spectrum). A lower frequency shift is called a "red shift". The faster a star moves away from the earth, the more its light is shifted to lower-frequency colors. This effect is known as the "Doppler shift". It is the same principle at work when an ambulance siren coming towards you is high pitched and then switches to a lower pitch sound once the ambulance passes you and is traveling away from you. The Doppler shift is also used in police radar guns to measure how fast your car is going based on how the radio wave shifts in frequency when it bounces off your car.
+<br><br>
+The book titled The Handy Astronomy Answer Book by Charles Liu states,
+<br><br>
+"When an object emitting light – or any kind of electromagnetic radiation, for that matter – moves toward someone, the wavelength of its emitted light is decreased. Conversely, when the object moves away, the wavelength of its emitted light is increased. For visible light, the bluer part of the spectrum has shorter wavelengths, and the redder part of the spectrum has longer wavelengths. Thus, the Doppler effect for light is called a ‘blueshift' if the light source is coming toward an observer, and a ‘redshift' if it is moving away. The faster the object moves, the greater the blueshift or redshift."
+<br><br>
+Simply by looking at the colors of light from a star, astronomers can figure out how fast that star is moving relative to earth using the Doppler shift. Any spectral color of light can shift to any other spectral color if the motion of the source is right. For this reason, if an orange light beam has been blue shifted, that does not mean that its final color is blue. It just means that its final color has been shifted towards the blue end of the spectrum; i.e. its color has been shifted up in frequency. An orange light that has been shifted so that it ends up as a yellow light has been "blue shifted". An orange light that has been shifted so that it ends up as a violet light has also been "blue shifted." In contrast, a violet light that is shifted so that it ends up as an orange light has been "red shifted". When it comes to the Doppler effect, "red shifted" should be heard as "down shifted" and "blue shifted" should be heard as "up shifted". For instance, if an ultraviolet ray (which is higher in frequency than blue) is shifted up in frequency so that is ends up as an X-ray, we still call it a blue shift, even though it actually has shifted away from the blue. This case only makes sense if you interpret "blue shift" to mean "up shift" and not "towards blue".
+<br><br>
+Now an interesting question arises. We call a down shift a "red shift" because red is the color at the bottom edge of the visible part of the electromagnetic spectrum. Red is the first color of a rainbow. With this type of reasoning, we should call an up shift a "violet shift" because violet is the color at the top edge of the visible part of the electromagnetic spectrum. Violet is the last color of a rainbow. But we don't. We call an up shift a blue shift and not a violet shift. Why? The reason is that humans do not see violet very well. Even though humans can technically see violet, and therefore it is the color at the upper edge of the visible spectrum, we do not see it very well. As a result, blue is the de facto upper edge of the visible spectrum. This is why an up shift is called a blue shift. Such a confusing state of affairs seems worth avoiding, but the fact is that having blue be the upper edge of the visible spectrum is part of the human experience.
+<br><br>
+The sky contains all colors of light at all times, put its light peaks in one color at different times of the day. Scientifically, the peak color of the sky shifts from sunrise to noon in the order: infrared, red, orange, yellow, green, blue, violet, ultraviolet. But humans experience the color of the sky from sunrise to noon as: red, orange, yellowish-white, white, blue. The difference between the scientific version of the sky's color and what humans experience are due to three facts: 1) our eyes can't see ultraviolet or infrared, 2) our eyes can't see violet very well, and 3) our eyes experience a nearly even mix of all colors as white. In terms of how we experience the sky, the color spectrum seems to start at red and end at blue. The same goes for incandescent flames such as in a campfire or on a candle. Scientifically, flame colors go from coldest to hottest in the order of: infrared, red, orange, yellow, green, blue, violet, ultraviolet. But humans experience the color of flames from coldest to hottest as red, orange, yellow-white, white, blue. From everyday experience, blue seems to be the upper end of the visible color spectrum, even though we can technically see violet. That is why an upwards Doppler shift is called a blue shift. A "violet shift" would therefore mean the same thing as a blue shift if the phrase were ever used: an upwards shift.
+<br><br>
+Use of the Doppler shift has allowed astronomers to make some interesting observations. On average, the light from all stars outside our local group of galaxies is red shifted. Also, the farther away a star is, the more its light is red shifted. This fact indicates that our universe is expanding and all of the stars outside our local group of galaxies are moving away from us. Also, when a star rotates, one edge of the star is moving towards us relative to its center while the other edge is moving away. As a result, light from one edge of a star is slightly red shifted while light from the other edge is slightly blue shifted. Astronomers can use these two shifts in order to calculate how fast a star is rotating. The same approach can be used to calculate how fast a galaxy is rotating.
+
+
+
+                </p>
+            </div>
+        </div>
+        
+    </body>
+</html>
